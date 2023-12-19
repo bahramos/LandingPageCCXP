@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO COM LOGO DO EVENTO -->
+
+    <div id="secao1">
+        <img src="ccxp.svg" alt="" srcset="">
+    </div>
+
+    <!-- SEÇÃO COM TÍTULO E INFORMAÇÕES -->
+
+    <div id="secao2">
+
+    <!-- LADO ESQUERDO ROXO -->
+        <div id="escritas">
+            <h1 id="titulo1">REVIVA O ÉPICO</h1> <br>
+            <h3 id="titulo2"> DE 01 A 04 DE DEZEMBRO</h3>
+            <p id="texto">Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores.</p>
+        </div>
+    
+    <!-- LADO DIREITO COM VÍDEO -->
+
+        <div id="secaovideo">
+
+                <div class="timer">
+                    <div>
+                        <h1 id="dia">00</h1>
+                    </div>
+                    <div>
+                        <h1 id="hora">00</h1>
+                    </div>
+                    <div>
+                        <h1 id="minuto">00</h1>
+                    </div>
+                    <div>
+                        <h1 id="segundo">00</h1>
+                    </div>
+                </div>
+                <div id="titulovideo">
+                    <h1>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h1>
+                </div>
+                <div id="video" >
+                    <video width="700px" controls loop> <source src="Arlequina.mp4" type="video/mp4"> </video>
+                </div>
+                
+        </div>
+    </div>
+        <!-- FINAL -->
+        <div id="final">
+            <div id="titulofinal">
+                <h1>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h1>
+            </div>
+        </div>
+        <div id="imagens">
+            <img src="quinta.svg" onclick="selectCard('#quinta')" onmouseout="highlightCard('#quinta')" onmouseover="highlightCard('#quinta')" id="quinta" alt="" srcset="">
+            <img src="sexta.svg" onclick="selectCard('#sexta')" onmouseout="highlightCard('#sexta')" onmouseover="highlightCard('#sexta')" id="sexta" alt="" srcset="">
+            <img src="sabado.svg" onclick="selectCard('#sabado')" onmouseout="highlightCard('#sabado')" onmouseover="highlightCard('#sabado')" id="sabado" alt="" srcset="">
+            <img src="domingo.svg" onclick="selectCard('#domingo')" onmouseout="highlightCard('#domingo')" onmouseover="highlightCard('#domingo')" id="domingo" alt="" srcset="">        
+            <button onclick="showSelectedCards()"><b>GARANTA O SEU!</b></button>
+        </div>
+        <div>
+            <form action="https://www.google.com">
+                <input type="email" placeholder="Seu email" required />
+                <input type="submit"/>
+            </form>
+        </div>
+       
+    <script src="script.js"></script>
+
+</body>
+</html>

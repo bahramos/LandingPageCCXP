@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+#secao1{
+    background: #FFD900;
+    padding: 30px;
+}
+#secao2{
+    background: #514988;
+    margin: 0px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#titulo1{
+    padding-top: 20px;
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+}
+#titulo2{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#texto{
+    margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#secaovideo{
+    background: #FFF;
+    padding-bottom: 100px;
+}
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#titulovideo{
+    color: #E33881;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+#video{
+    text-align: center;
+}
+#final{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+}
+#titulofinal{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: #F3C61F;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+#imagens{
+    margin-left: 50px;
+}
+button{
+    border-radius: 20px;
+    background: #514988;
+    width: 400px;
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+button:hover{
+    background-color: #514988da;
+    cursor: pointer;
+    color: #F3C61F;
+}
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.card-selected{
+    border: 5px solid green;
+}
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFF;
+    border: 0pt;
+    margin: 30px;
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+}
